@@ -88,7 +88,7 @@ class AlienInvasion:
     def _fire_bullet(self):
         """Create a new bullet and add it to the bullets group."""
         if len(self.bullets) < self.settings.bullets_allowed:
-            new_bullet = Bullet(self)
+            new_bullet = Bullet(self.screen, self.settings, self.ship.rect.midtop)
             self.bullets.add(new_bullet)
 
 

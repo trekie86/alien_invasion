@@ -11,7 +11,7 @@ It is always recommended to create a new virtual environment when writing python
 # Setup the virtual environment
 python3 -m venv venv
 # Upgrade pip
-pip --upgrade pip
+pip install --upgrade pip
 # Install the required packages
 pip install -r requirements.txt
 # Run the program (note because we setup the virtual environment with python3, commands such as python & pip actuall are referenced to python3 & pip3 respectively)
