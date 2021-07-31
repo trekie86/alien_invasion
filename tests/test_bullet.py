@@ -1,5 +1,4 @@
 from unittest import TestCase
-from unittest.mock import Mock, MagicMock
 from bullet import Bullet
 from settings import Settings
 
