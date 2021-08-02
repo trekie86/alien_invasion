@@ -2,6 +2,7 @@ from unittest import TestCase
 from bullet import Bullet
 from settings import Settings
 
+
 class TestBullet(TestCase):
 
     def setUp(self) -> None:
