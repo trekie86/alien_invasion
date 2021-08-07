@@ -1,11 +1,12 @@
 from settings import Settings
 import pygame
+from pygame.surface import Surface
 
 
 class Ship:
     """A class to manage the ship."""
 
-    def __init__(self, screen: pygame.Surface, settings: Settings):
+    def __init__(self, screen: Surface, settings: Settings):
         """Initialize the ship and set it's starting position."""
         self.screen = screen
         self.settings = settings
